@@ -1,0 +1,6 @@
+version: "2"
+services:
+  drupal:
+    build: .
+    container_name: drupal
+    image: livingstoneonline/drupal

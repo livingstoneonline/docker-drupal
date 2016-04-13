@@ -1,0 +1,6 @@
+[template]
+src = "settings.php.tmpl"
+dest = "/var/www/html/sites/default/settings.php"
+prefix= "/drupal/site"
+mode="0644"
+keys = ["/db/name", "/db/user", "/db/password"]
