@@ -24,6 +24,7 @@ RUN add-apt-repository ppa:mc3man/trusty-media && \
       php5-mysql \
       php5-xsl \
       poppler-utils \
+      wkhtmltopdf \
   && \
   a2enmod proxy && \
   a2enmod proxy_html && \
