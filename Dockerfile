@@ -24,7 +24,6 @@ RUN add-apt-repository ppa:mc3man/trusty-media && \
       php5-mysql \
       php5-xsl \
       poppler-utils \
-      wkhtmltopdf \
   && \
   a2enmod proxy && \
   a2enmod proxy_html && \
@@ -42,6 +41,12 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
     mkdir ${DRUPAL_ROOT}/sites/all/modules/custom && \
     mkdir ${DRUPAL_ROOT}/sites/all/modules/features && \
     mkdir ${DRUPAL_ROOT}/sites/all/modules/islandora
+
+RUN apt-install xfonts-base xfonts-75dpi && \
+    curl -L -o /tmp/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb && \
+    dpkg -i /tmp/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb && \
+    apt-get install -f && \
+    cleanup
 
 COPY build /build
 
