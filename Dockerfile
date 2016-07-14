@@ -13,6 +13,7 @@ RUN add-apt-repository ppa:mc3man/trusty-media && \
       apache2 \
       apache2-utils \
       ffmpeg \
+      lftp \
       ghostscript \
       imagemagick \
       lame \
