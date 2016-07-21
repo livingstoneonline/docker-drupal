@@ -29,7 +29,7 @@ foreground {
     redirfd -w 2 /dev/null
     mysql
     --user=${MYSQL_ROOT_USER} --password=${MYSQL_ROOT_PASSWORD}
-    -e use ${DRUPAL_SITE_DB_NAME}
+    -e "USE ${DRUPAL_SITE_DB_NAME};"
   }
   {
     redirfd -w 2 /dev/null
@@ -43,7 +43,7 @@ foreground {
   redirfd -w 2 /dev/null
   mysql
   --user=${MYSQL_ROOT_USER} --password=${MYSQL_ROOT_PASSWORD}
-  -e "SET PASSWORD FOR '${DRUPAL_DB_USER}'@'localhost' = PASSWORD('${DRUPAL_DB_PASSWORD}');"
+  -e "SET PASSWORD FOR '${DRUPAL_SITE_DB_USER}'@'localhost' = PASSWORD('${DRUPAL_SITE_DB_PASSWORD}');"
 }
 # Stop MySQL Service.
 foreground {
