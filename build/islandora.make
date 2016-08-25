@@ -24,6 +24,10 @@ projects:
   drupal:
     type: core
   # Contrib
+  apachesolr:
+    type: module
+    subdir: contrib
+    version: ~
   imagemagick:
     type: module
     subdir: contrib
