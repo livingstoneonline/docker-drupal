@@ -198,7 +198,7 @@ libraries:
   tuque:
     download:
       type: file
-      url: https://github.com/Islandora/tuque/archive/1.7.tar.gz
+      url: https://github.com/livingstoneonline/tuque/archive/1.7-livingstone.tar.gz
   ckeditor:
     download:
       type: file
