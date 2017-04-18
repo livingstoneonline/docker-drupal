@@ -1,0 +1,16 @@
+#!/usr/bin/execlineb -P
+# -*- mode: sh -*-
+# vi: set ft=sh:
+with-contenv
+importas -i DRUPAL_ROOT DRUPAL_ROOT
+foreground {
+  chown -R apache:apache ${DRUPAL_ROOT}
+}
+foreground {
+  chmod a=r  ${DRUPAL_ROOT}/sites/default/settings.php
+}
+foreground {
+  cd ${DRUPAL_ROOT}
+  s6-setuidgid apache
+  drush cc all
+}

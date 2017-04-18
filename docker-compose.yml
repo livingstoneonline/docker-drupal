@@ -1,6 +1,22 @@
 version: "2"
 services:
-  drupal:
+  fedora:
     build: .
     container_name: drupal
     image: livingstoneonline/drupal
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - DRUPAL_SITE_ACCOUNT_PASSWORD=password
+      - DRUPAL_SITE_DB_PASSWORD=password
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+  mysql:
+    image: livingstoneonline/mysql
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      - "3306:3306"
+
