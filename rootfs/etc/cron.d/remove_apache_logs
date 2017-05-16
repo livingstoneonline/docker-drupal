@@ -1,0 +1,2 @@
+# Remove log files older than 15 days.
+0 0 * * * root (find /var/log/apache2 -name \*log\* -mtime +15 -exec rm -f {} \; >/dev/null 2>&1 )
