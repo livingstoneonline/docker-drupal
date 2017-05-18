@@ -64,8 +64,8 @@ foreground {
   cd ${DRUPAL_ROOT}
   s6-setuidgid apache
   drush eval "
-    include DRUPAL_ROOT.'/includes/install.inc';
-    include DRUPAL_ROOT.'/includes/update.inc';
+    include_once DRUPAL_ROOT.'/includes/install.inc';
+    include_once DRUPAL_ROOT.'/includes/update.inc';
     global $db_prefix;
     $url = 'mysql://${DRUPAL_SITE_DB_USER}:${DRUPAL_SITE_DB_PASSWORD}@${MYSQL_HOST}:${MYSQL_HOST_PORT}/${DRUPAL_SITE_DB_NAME}';
     $db['databases']['value'] = update_parse_db_url($url, $db_prefix);

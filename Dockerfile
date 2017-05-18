@@ -39,6 +39,7 @@ RUN apk-install \
       php5-xml \
       php5-xmlreader \
       php5-xsl \
+      php5-zip \
       py-pip \
       python \
     && \
