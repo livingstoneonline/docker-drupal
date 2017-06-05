@@ -12,6 +12,7 @@ multisubstitute
   import -D "root" MYSQL_ROOT_USER
   import -i MYSQL_ROOT_PASSWORD
   # Set defaults for Drupal environment.
+  import -D "/var/www/localhost/htdocs" DRUPAL_ROOT
   import -D "minimal" DRUPAL_SITE_INSTALL_PROFILE
   import -D "Islandora" DRUPAL_SITE_NAME
   import -D "webmaster@localhost.com" DRUPAL_SITE_EMAIL
@@ -23,6 +24,7 @@ multisubstitute
   import -D "drupal" DRUPAL_SITE_DB_USER
   import -i DRUPAL_SITE_DB_PASSWORD
   import -D "no" DRUPAL_SITE_DB_REPLACE_EXISTING
+  import -D "no" DRUPAL_IMPORT_DATA
 }
 foreground {
   # We add / update the environment defined for the container,
@@ -34,6 +36,7 @@ foreground {
   MYSQL_HOST_PORT=$MYSQL_HOST_PORT
   MYSQL_ROOT_USER=$MYSQL_ROOT_USER
   MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+  DRUPAL_ROOT=$DRUPAL_ROOT
   DRUPAL_SITE_INSTALL_PROFILE=$DRUPAL_SITE_INSTALL_PROFILE
   DRUPAL_SITE_NAME=$DRUPAL_SITE_NAME
   DRUPAL_SITE_EMAIL=$DRUPAL_SITE_EMAIL
@@ -45,5 +48,6 @@ foreground {
   DRUPAL_SITE_DB_USER=$DRUPAL_SITE_DB_USER
   DRUPAL_SITE_DB_PASSWORD=$DRUPAL_SITE_DB_PASSWORD
   DRUPAL_SITE_DB_REPLACE_EXISTING=$DRUPAL_SITE_DB_REPLACE_EXISTING
+  DRUPAL_IMPORT_DATA=$DRUPAL_IMPORT_DATA
   s6-dumpenv -- /var/run/s6/container_environment
 }
