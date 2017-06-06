@@ -106,6 +106,10 @@ projects:
     type: module
     subdir: contrib
     version: '2.0'
+  redirect:
+    type: module
+    subdir: contrib
+    version: '1.0-rc3'
   simple_timeline:
     subdir: contrib
     version: '1.0'
