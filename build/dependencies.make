@@ -113,6 +113,9 @@ projects:
   simple_timeline:
     subdir: contrib
     version: '1.0'
+  special_menu_items:
+    subdir: contrib
+    version: '2.0'
   strongarm:
     subdir: contrib
     version: '2.0'
