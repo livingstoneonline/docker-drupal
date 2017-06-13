@@ -14,7 +14,9 @@ projects:
     version: '3.4'
   admin_menu:
     subdir: contrib
-    version: '3.0-rc5'
+    download:
+      type: file
+      url: https://github.com/livingstoneonline/admin_menu/archive/7.x-3.x.tar.gz
   admin_views:
     subdir: contrib
     version: '1.6'
