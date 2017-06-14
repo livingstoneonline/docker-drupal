@@ -16,7 +16,7 @@ projects:
     subdir: contrib
     download:
       type: file
-      url: https://github.com/livingstoneonline/admin_menu/archive/7.x-3.x.tar.gz
+      url: https://github.com/livingstoneonline/admin_menu/archive/master.tar.gz
   admin_views:
     subdir: contrib
     version: '1.6'
