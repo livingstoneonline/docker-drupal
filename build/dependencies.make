@@ -95,6 +95,9 @@ projects:
   menu_attributes:
     subdir: contrib
     version: '1.0'
+  menu_view_unpublished:
+    subdir: contrib
+    version: '1.0-beta3'
   node_export:
     subdir: contrib
     version: '3.1'
