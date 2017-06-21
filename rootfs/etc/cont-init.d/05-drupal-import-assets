@@ -13,7 +13,7 @@ if -t { s6-test ${DRUPAL_IMPORT_DATA} = "yes" }
    foreground {
      ifelse { s6-test -e "/assets/drupal-data.tar.gz" } {
        importas -i DRUPAL_ROOT DRUPAL_ROOT
-       foreground {
+       background {
          tar -xzvf /assets/drupal-data.tar.gz -C ${DRUPAL_ROOT}/sites/default
        } echo "Decompressed drupal-data.tar.gz."
      } echo "/assets/drupal-data.tar.gz is missing."
