@@ -71,6 +71,12 @@ projects:
   imce:
     subdir: contrib
     version: '1.10'
+  imce_uploader:
+    subdir: contrib
+    version: '1.3'
+  plupload:
+    subdir: contrib
+    version: '1.7'
   imce_mkdir:
     subdir: contrib
     version: '1.0'
@@ -207,6 +213,10 @@ projects:
       type: file
       url: https://github.com/Islandora/islandora_solr_facet_pages/archive/7.x-1.7.tar.gz
 libraries:
+  plupload:
+    download:
+      type: file
+      url: https://github.com/moxiecode/plupload/archive/v1.5.8.zip
   tuque:
     download:
       type: file
