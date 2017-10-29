@@ -22,22 +22,22 @@ projects:
     version: '1.6'
   apachesolr:
     subdir: contrib
-    version: '1.8'
-  backup_migrate:
-    subdir: contrib
-    version: '3.1'
+    version: '1.9'
   block_class:
     subdir: contrib
     version: '2.3'
+  backup_migrate:
+    subdir: contrib
+    version: '3.3'
   ctools:
     subdir: contrib
     version: '1.12'
   ckeditor:
     subdir: contrib
-    version: '1.17'
+    version: '1.18'
   date:
     subdir: contrib
-    version: '2.9'
+    version: '2.10'
   double_field:
     subdir: contrib
     version: '2.5'
@@ -61,7 +61,7 @@ projects:
     version: '1.5'
   file_entity:
     subdir: contrib
-    version: '2.0-beta3'
+    version: '2.11'
   flexslider:
     subdir: contrib
     version: '2.0-rc2'
@@ -73,7 +73,7 @@ projects:
     version: '1.0'
   imce:
     subdir: contrib
-    version: '1.10'
+    version: '1.11'
   imce_uploader:
     subdir: contrib
     version: '1.3'
@@ -100,7 +100,7 @@ projects:
     version: '2.3'
   media:
     subdir: contrib
-    version: '2.0-rc12'
+    version: '2.13'
   menu_attributes:
     subdir: contrib
     version: '1.0'
@@ -138,10 +138,10 @@ projects:
     version: '1.7'
   uuid:
     subdir: contrib
-    version: '1.0-beta2'
+    version: '1.0'
   views:
     subdir: contrib
-    version: '3.15'
+    version: '3.18'
   views_bootstrap:
     subdir: contrib
     version: '3.1'
@@ -150,9 +150,9 @@ projects:
     version: '1.0'
   wysiwyg:
     subdir: contrib
-    version: '2.3'
+    version: '2.4'
   bootstrap:
-    version: '3.12'
+    version: '3.15'
   # Custom Contrib
   nodequeue_pager:
     type: module
