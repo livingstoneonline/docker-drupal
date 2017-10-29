@@ -23,6 +23,9 @@ projects:
   apachesolr:
     subdir: contrib
     version: '1.8'
+  backup_migrate:
+    subdir: contrib
+    version: '3.1'
   block_class:
     subdir: contrib
     version: '2.3'
