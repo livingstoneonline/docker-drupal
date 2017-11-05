@@ -68,6 +68,9 @@ projects:
   gmap:
     subdir: contrib
     version: '2.11'
+  google_analytics:
+      subdir: contrib
+      version: '2.4'
   imagemagick:
     subdir: contrib
     version: '1.0'
