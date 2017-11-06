@@ -77,6 +77,9 @@ projects:
   imce:
     subdir: contrib
     version: '1.11'
+  imce_rename:
+    subdir: contrib
+    version: '1.3'
   imce_uploader:
     subdir: contrib
     version: '1.3'
