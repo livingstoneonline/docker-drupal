@@ -8,10 +8,8 @@ projects:
     type: core
   diff:
     subdir: contrib
-    version: '3.3'
   views_bulk_operations:
     subdir: contrib
-    version: '3.5'
   admin_menu:
     subdir: contrib
     download:
@@ -19,146 +17,99 @@ projects:
       url: https://github.com/livingstoneonline/admin_menu/archive/master.tar.gz
   admin_views:
     subdir: contrib
-    version: '1.6'
   apachesolr:
     subdir: contrib
-    version: '1.11'
   block_class:
     subdir: contrib
-    version: '2.3'
   backup_migrate:
     subdir: contrib
-    version: '3.5'
   ctools:
     subdir: contrib
-    version: '1.14'
   ckeditor:
     subdir: contrib
-    version: '1.18'
   date:
     subdir: contrib
-    version: '2.10'
   double_field:
     subdir: contrib
-    version: '2.5'
   entity:
     subdir: contrib
-    version: '1.9'
   entityreference:
     subdir: contrib
-    version: '1.2'
   features_extra:
     subdir: contrib
-    version: '1.0'
   features:
     subdir: contrib
-    version: '2.10'
   features_override:
     subdir: contrib
-    version: '2.0-rc3'
   field_group:
     subdir: contrib
-    version: '1.5'
   file_entity:
     subdir: contrib
-    version: '2.21'
   flexslider:
     subdir: contrib
-    version: '2.0-rc2'
   gmap:
     subdir: contrib
-    version: '2.11'
   google_analytics:
-      subdir: contrib
-      version: '2.4'
+    subdir: contrib
   imagemagick:
     subdir: contrib
-    version: '1.0'
   imce:
     subdir: contrib
-    version: '1.11'
   imce_rename:
     subdir: contrib
-    version: '1.3'
   imce_uploader:
     subdir: contrib
-    version: '1.3'
   plupload:
     subdir: contrib
-    version: '1.7'
   imce_mkdir:
     subdir: contrib
-    version: '1.0'
   imce_tools:
     subdir: contrib
-    version: '1.2'
   imce_wysiwyg:
     subdir: contrib
-    version: '1.0'
   jcarousel:
     subdir: contrib
-    version: '2.7'
   jquery_update:
     subdir: contrib
-    version: '2.7'
   libraries:
     subdir: contrib
-    version: '2.3'
   media:
     subdir: contrib
-    version: '2.19'
   menu_attributes:
     subdir: contrib
-    version: '1.0'
   menu_view_unpublished:
     subdir: contrib
-    version: '1.0-beta3'
   node_export:
     subdir: contrib
-    version: '3.1'
   nodequeue:
     subdir: contrib
-    version: '2.1'
   pathauto:
     subdir: contrib
-    version: '1.3'
   qtip:
     type: module
     subdir: contrib
-    version: '2.0'
   redirect:
     type: module
     subdir: contrib
-    version: '1.0-rc3'
   simple_timeline:
     subdir: contrib
-    version: '1.0'
   special_menu_items:
     subdir: contrib
-    version: '2.0'
   strongarm:
     subdir: contrib
-    version: '2.0'
   token:
     subdir: contrib
-    version: '1.7'
   uuid:
     subdir: contrib
-    version: '1.0'
   views:
     subdir: contrib
-    version: '3.20'
   views_bootstrap:
     subdir: contrib
-    version: '3.1'
   views_regex_rewrite:
     subdir: contrib
-    version: '1.0'
   wysiwyg:
     subdir: contrib
-    version: '2.5'
   bootstrap:
-    version: '3.20'
   # Custom Contrib
   nodequeue_pager:
     type: module
