@@ -1,4 +1,4 @@
-FROM livingstoneonline/base:alpine
+FROM livingstoneonline/base-alpine
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
 LABEL "License"="GPLv3" \
