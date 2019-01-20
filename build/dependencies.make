@@ -23,6 +23,9 @@ projects:
     subdir: contrib
   backup_migrate:
     subdir: contrib
+    download:
+      type: file
+      url: https://github.com/livingstoneonline/backup_migrate/archive/master.tar.gz
   ctools:
     subdir: contrib
   ckeditor:
@@ -110,6 +113,7 @@ projects:
   wysiwyg:
     subdir: contrib
   bootstrap:
+		type: theme
   # Custom Contrib
   nodequeue_pager:
     type: module
