@@ -113,7 +113,7 @@ projects:
   wysiwyg:
     subdir: contrib
   bootstrap:
-		type: theme
+    type: theme
   # Custom Contrib
   nodequeue_pager:
     type: module
